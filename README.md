@@ -95,3 +95,8 @@ This function allows you to change to the current Finder directory.
      cd (pfd)
    end
    ```
+
+### 8. Homebrew alias
+   ```fish
+   alias upgrade="brew update -v && brew upgrade -v && brew autoremove -v && brew cleanup -s --prune=all -v"
+   ```
